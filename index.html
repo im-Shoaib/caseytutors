@@ -12,31 +12,26 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <!-- ========== HEADER ========== -->
     <header class="site-header" id="header">
         <div class="container header-inner">
+
             <a href="#" class="logo">
                 <img class="logo-img" src="assets/logo.DjEZDT5C.png" alt="Casey Tutors Emblem" />
-                <div class="logo-text">
-                    <div class="logo-main">
-                        <span class="casey">CASEY</span><span class="tutors">TUTORS</span>
-                    </div>
-                    <div class="logo-tagline">
-                        LEARN <span class="with">WITH</span> CONFIDENCE
-                    </div>
-                </div>
+                <img class="logo-text-img" src="assets/logo.png" alt="Casey Tutors" />
             </a>
 
             <nav class="main-nav">
                 <ul>
                     <li><a href="#hero">Home</a></li>
-                    <li><a href="#teacher">About Dr Dulangi</a></li>
-                    <li><a href="#program">Program</a></li>
+                    <li><a href="#teacher">About Dr Dulangi SJ</a></li>
+                    <li><a href="#complete-program">Program</a></li>
+                    <li><a href="#results">Results</a></li>
                     <li><a href="#reviews">Reviews</a></li>
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="#contact" class="btn-header">Enquire Now <i class="fa-regular fa-circle-right"></i></a></li>
@@ -44,550 +39,860 @@
             </nav>
 
             <button class="hamburger" id="hamburger" aria-label="Menu">
-                <span></span><span></span><span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
         </div>
     </header>
 
-    <!-- ========== MOBILE MENU ========== -->
+    <!-- Mobile Menu -->
     <nav class="mobile-menu" id="mobileMenu">
         <ul>
             <li><a href="#hero">Home</a></li>
-            <li><a href="#teacher">About Dr Dulangi</a></li>
-            <li><a href="#program">Program</a></li>
+            <li><a href="#teacher">About Dr Dulangi SJ</a></li>
+            <li><a href="#complete-program">Program</a></li>
+            <li><a href="#results">Results</a></li>
             <li><a href="#reviews">Reviews</a></li>
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#contact" class="btn-header">Enquire Now</a></li>
         </ul>
     </nav>
 
-    <!-- ========== HERO – CENTERED LAYOUT ========== -->
-    <main>
-        <section class="hero" id="hero">
-            <div class="container">
-                <h1 class="fade-in-up delay-1">Complete <span style="color: #00a6ce;">VCE Biology Program</span><br>Without Inflated Fees</h1>
-                <p class="subhead fade-in-up delay-2">
-                    VCE Biology support for Grade 10, Year 11 and Year 12 students, taught by 
-                    <strong>Dr Dulangi SJ</strong>, a PhD‑qualified former research scientist with over 
-                    13 years of VCE Biology teaching experience.
+    <!-- ========== SECTION 1: HERO ========== -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <!-- Pre‑headline pill -->
+            <div class="hero-pill fade-in-up delay-1">
+                VCE Biology &nbsp;·&nbsp; Grade 10, Year 11 and Year 12
+            </div>
+
+            <!-- Main heading -->
+            <h1 class="fade-in-up delay-2">
+                Complete VCE Biology Program.<br>
+                Expert Teaching. <span>Clear Results.</span>
+            </h1>
+
+            <!-- Decorative divider -->
+            <div class="hero-divider fade-in-up delay-3"></div>
+
+            <!-- Sub‑headline -->
+            <p class="hero-subhead fade-in-up delay-4">
+                Support for Grade 10, Year 11 and Year 12 students, taught by
+                <strong>Dr Dulangi S. Jayasundera</strong>, a PhD‑qualified former research scientist.
+            </p>
+
+            <!-- Highlight badge -->
+            <div class="hero-badge fade-in-up delay-5">
+                Over 2000 students tutored in 13 years, one of the most experienced VCE Biology instructors in the state.
+            </div>
+
+            <!-- CTA buttons -->
+            <div class="hero-buttons fade-in-up delay-6">
+                <a href="#contact" class="btn-primary">
+                    Enquire Now <i class="fa-solid fa-angle-right"></i></i>
+                </a>
+                <a href="#program" class="btn-outline">
+                    View Program Details <i class="fa-solid fa-angle-right"></i></i>
+                </a>
+            </div>
+
+            <!-- Feature cards row -->
+            <div class="hero-features fade-in-up delay-7">
+                <!-- Card 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <h4>Taught in real depth</h4>
+                    <p>No reading off slides. Concepts explained until they stick.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <h4>Structured practice</h4>
+                    <p>SAC preparation, topic tests, quizzes and exam readiness, all built in.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-comment-dots"></i>
+                    </div>
+                    <h4>Personalised support</h4>
+                    <p>1:1 online help, feedback reports, holiday classes and free quizzes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 2: RESULTS (moved up) ========== -->
+    <section class="results-showcase" id="results">
+        <div class="container">
+            <h2 class="section-heading fade-in-up">Back‑to‑Back <span>VCE Biology Excellence</span></h2>
+
+            <div class="showcase-grid">
+                <!-- 2025 Column -->
+                <div class="showcase-column fade-in-pop delay-1">
+                    <div class="showcase-year">2025</div>
+                    <div class="stat-cards">
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">Perfect Raw 50s</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="4">0</span>
+                            <span class="stat-label">Scaled 50s</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="48">0</span>
+                            <span class="stat-label">Scaled 48s</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="45">0</span>
+                            <span class="stat-label">45+ Results</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divider with trophy -->
+                <div class="showcase-divider fade-in-pop delay-2">
+                    <div class="trophy-icon">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <span class="divider-text">Many high‑achieving students across Victoria</span>
+                </div>
+
+                <!-- 2024 Column -->
+                <div class="showcase-column fade-in-pop delay-3">
+                    <div class="showcase-year">2024</div>
+                    <div class="stat-cards">
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="4">0</span>
+                            <span class="stat-label">Perfect Raw 50s</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="50">0</span>
+                            <span class="stat-label">Scaled 50s</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="45">0</span>
+                            <span class="stat-label">45+ Study Scores</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-label">High‑achieving students</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Overall summary -->
+            <p class="showcase-summary fade-in-up delay-4">
+                Across 2024 and 2025, over <strong>60 students</strong> achieved study scores above 45 in VCE Biology.
+            </p>
+
+            <!-- CTA -->
+            <div class="showcase-cta fade-in-up delay-5">
+                <a href="#contact" class="btn-primary">
+                    Enquire Now <i class="fa-solid fa-angle-right"></i></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 3: WHY DIFFERENT ========== -->
+    <section class="why-different" id="why-different">
+        <div class="container">
+            <h2 class="section-heading fade-in-up">Why Casey Tutors VCE Biology is Different</h2>
+
+            <div class="flip-grid">
+                <!-- Card 1 -->
+                <div class="flip-card fade-in-pop delay-1">
+                    <div class="flip-inner">
+                        <div class="flip-front">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-chalkboard-user"></i>
+                            </div>
+                            <h3>Expert‑led Biology Teaching</h3>
+                        </div>
+                        <div class="flip-back">
+                            <p>Not casual tutoring. Taught by Dr Dulangi S. Jayasundera, an experienced VCE Biology educator.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="flip-card fade-in-pop delay-2">
+                    <div class="flip-inner">
+                        <div class="flip-front">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-layer-group"></i>
+                            </div>
+                            <h3>Complete Structured Program</h3>
+                        </div>
+                        <div class="flip-back">
+                            <p>Theory, SAC preparation, quizzes, topic tests, notes and revision support are included.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="flip-card fade-in-pop delay-3">
+                    <div class="flip-inner">
+                        <div class="flip-front">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-file-pen"></i>
+                            </div>
+                            <h3>Exam‑focused Support</h3>
+                        </div>
+                        <div class="flip-back">
+                            <p>Students practise VCAA‑style questions and learn how to write answers properly.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="flip-card fade-in-pop delay-4">
+                    <div class="flip-inner">
+                        <div class="flip-front">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-arrow-trend-up"></i>
+                            </div>
+                            <h3>Grade 10, Year 11 and Year 12</h3>
+                        </div>
+                        <div class="flip-back">
+                            <p>Early preparation, Units 1 &amp; 2 foundation support and Units 3 &amp; 4 exam preparation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 4: TEACHER PROFILE (moved up) ========== -->
+    <section class="teacher-profile" id="teacher">
+        <div class="container profile-grid">
+            <!-- Left: Photo -->
+            <div class="profile-photo fade-in-up delay-1">
+                <img src="assets/dulangi.jpeg" alt="Dr Dulangi S. Jayasundera" />
+                <div class="photo-glow"></div>
+            </div>
+
+            <!-- Right: Content -->
+            <div class="profile-content fade-in-up delay-2">
+                <h2>Taught by <span>Dr Dulangi S. Jayasundera</span></h2>
+
+                <p class="profile-intro">
+                    Dr Dulangi S. Jayasundera is a PhD‑qualified VCE Biology educator, former research scientist
+                    and experienced teacher with First Class Honours and over 13 years of VCE Biology teaching
+                    experience in Victoria.
+                </p>
+                <p>
+                    She specialises in VCE Biology Units 1–4, including early VCE Biology preparation for Grade 10
+                    students, Unit 1 &amp; 2 foundation support, Unit 3 &amp; 4 theory lessons, SAC preparation,
+                    topic tests, exam‑style questions and final exam revision.
+                </p>
+                <p>
+                    Her teaching focuses on helping students understand Biology clearly, apply knowledge to unfamiliar
+                    questions and write answers in the way VCAA examiners expect.
                 </p>
 
-                <!-- Location pills -->
-                <div class="hero-tags fade-in-up delay-3">
-                    <span>Narre Warren</span>
-                    <span>Mount Waverley</span>
-                    <span>Online</span>
-                    <span>VCE Units 1–4</span>
-                    <span>Grade 10 Prep</span>
-                </div>
-
-                <!-- CTA buttons -->
-                <div class="hero-buttons fade-in-up delay-4">
-                    <a href="#contact" class="btn-primary">Enquire About VCE Biology Classes</a>
-                    <a href="#program" class="btn-outline">View Program Details</a>
-                </div>
-
-                <!-- Benefit ticks (4 items now – includes the previously missing line) -->
-                <div class="hero-benefits fade-in-up delay-5">
-                    <span>4 hrs weekly structured support (Unit 3/4)</span>
-                    <span>Proven raw 50, 49, 48 & 45+ scores</span>
-                    <span>5.0★ (74 reviews)</span>
-                    <span>Theory, SAC preparation, quizzes, topic tests & exam‑style practice</span>
+                <!-- Qualification badges -->
+                <div class="qual-badges">
+                    <span><i class="fa-solid fa-circle-check"></i> PhD in Infectious Diseases / Molecular Biology and Pharmacology</span>
+                    <span><i class="fa-solid fa-circle-check"></i> Bachelor of Science with First Class Honours</span>
+                    <span><i class="fa-solid fa-circle-check"></i> Former research scientist</span>
+                    <span><i class="fa-solid fa-circle-check"></i> 13+ years VCE Biology teaching experience</span>
+                    <span><i class="fa-solid fa-circle-check"></i> Specialist VCE Biology Units 1–4 teacher</span>
                 </div>
             </div>
-        </section>
-
-        <!-- ========== SECTION 2: TRUST BAR ========== -->
-<section class="trust-bar" id="trust">
-    <div class="container">
-        <div class="trust-grid fade-in-up">
-            <div class="trust-item">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <span>13+ years VCE Biology teaching</span>
-            </div>
-            <div class="trust-item">
-                <i class="fa-solid fa-user-graduate"></i>
-                <span>PhD‑qualified teacher</span>
-            </div>
-            <div class="trust-item">
-                <i class="fa-solid fa-flask"></i>
-                <span>Former research scientist</span>
-            </div>
-            <div class="trust-item">
-                <i class="fa-solid fa-star"></i>
-                <span>5.0‑star Tutor Finder rating</span>
-            </div>
-            <div class="trust-item">
-                <i class="fa-solid fa-comment-dots"></i>
-                <span>74 Tutor Finder reviews</span>
-            </div>
-            <div class="trust-item">
-                <i class="fa-solid fa-chart-line"></i>
-                <span>Raw 50, 49, 48 & 45+ results</span>
-            </div>
-            <div class="trust-item">
-                <i class="fa-solid fa-users"></i>
-                <span>Grade 10, Year 11 & 12 support</span>
-            </div>
-            <div class="trust-item">
-                <i class="fa-solid fa-location-dot"></i>
-                <span>Narre Warren | Mount Waverley | Online</span>
-            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ========== SECTION 3: TEACHER PROFILE ========== -->
-<section class="teacher-profile" id="teacher">
-    <div class="container profile-grid">
-        <!-- Left: image -->
-        <div class="profile-image fade-in-up">
-            <!-- Replace with actual photo of Dr Dulangi SJ – no AI/stock people -->
-            <img src="assets/dulangi.jpg" alt="Dr Dulangi SJ" />
-        </div>
+    <!-- ========== SECTION 5: WEEKLY STRUCTURE ========== -->
+    <section class="weekly-structure" id="structure">
+        <div class="container">
+            <h2 class="section-heading fade-in-up">4 Hours of Structured Weekly Support<br><span>for Unit 3/4 Biology</span></h2>
 
-        <!-- Right: content -->
-        <div class="profile-content fade-in-up delay-1">
-            <h2>Taught by Dr Dulangi SJ</h2>
-            <p class="profile-intro">
-                Dr Dulangi S. Jayasundera is a PhD‑qualified VCE Biology educator, former research scientist and experienced teacher with First Class Honours and over 13 years of VCE Biology teaching experience in Victoria.
-            </p>
-            <p>
-                She specialises in VCE Biology Units 1 to 4, including early VCE Biology preparation for Grade 10 students, Unit 1 &amp; 2 foundation support, Unit 3 &amp; 4 theory lessons, SAC preparation, topic tests, exam‑style questions and final exam revision.
-            </p>
-            <p>
-                Her teaching focuses on helping students understand Biology clearly, apply knowledge to unfamiliar questions and write answers in the way VCAA examiners expect.
-            </p>
-
-            <!-- Qualification points -->
-            <ul class="qualification-list">
-                <li><i class="fa-solid fa-circle-check"></i> PhD in Infectious Diseases / Molecular Biology and Pharmacology</li>
-                <li><i class="fa-solid fa-circle-check"></i> Bachelor of Science with First Class Honours</li>
-                <li><i class="fa-solid fa-circle-check"></i> Former research scientist</li>
-                <li><i class="fa-solid fa-circle-check"></i> 13+ years VCE Biology teaching experience</li>
-                <li><i class="fa-solid fa-circle-check"></i> Specialist VCE Biology Units 1 to 4 teacher</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<!-- ========== SECTION 4: COMPLETE PROGRAM ========== -->
-<section class="complete-program" id="program">
-    <div class="container">
-        <div class="section-header fade-in-up">
-            <h2>Not Just a Weekly Class:<br><span>A Complete VCE Biology Program</span></h2>
-            <p class="section-intro">
-                At Casey Tutors, VCE Biology students follow a structured program designed to build strong understanding, 
-                regular practice and exam confidence across the year. The program supports students from early VCE preparation 
-                in Grade 10 through to Units 1 &amp; 2 and Units 3 &amp; 4.
-            </p>
-        </div>
-
-        <!-- Program features grid -->
-        <div class="program-grid">
-            <div class="program-card fade-in-up delay-1">
-                <div class="program-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
-                <span>Weekly theory teaching</span>
-            </div>
-            <div class="program-card fade-in-up delay-1">
-                <div class="program-icon"><i class="fa-solid fa-pen-to-square"></i></div>
-                <span>Quiz, SAC &amp; exam‑style practice support</span>
-            </div>
-            <div class="program-card fade-in-up delay-2">
-                <div class="program-icon"><i class="fa-solid fa-bullseye"></i></div>
-                <span>Personalised SAC preparation</span>
-            </div>
-            <div class="program-card fade-in-up delay-2">
-                <div class="program-icon"><i class="fa-solid fa-file-lines"></i></div>
-                <span>Topic tests &amp; chapter tests</span>
-            </div>
-            <div class="program-card fade-in-up delay-3">
-                <div class="program-icon"><i class="fa-solid fa-book"></i></div>
-                <span>Structured notes</span>
-            </div>
-            <div class="program-card fade-in-up delay-3">
-                <div class="program-icon"><i class="fa-solid fa-laptop"></i></div>
-                <span>Learning portal support</span>
-            </div>
-            <div class="program-card fade-in-up delay-4">
-                <div class="program-icon"><i class="fa-solid fa-clock"></i></div>
-                <span>Timely quizzes</span>
-            </div>
-            <div class="program-card fade-in-up delay-4">
-                <div class="program-icon"><i class="fa-solid fa-chart-simple"></i></div>
-                <span>Progress feedback &amp; reporting</span>
-            </div>
-            <div class="program-card fade-in-up delay-5">
-                <div class="program-icon"><i class="fa-solid fa-calendar-check"></i></div>
-                <span>Holiday homework &amp; revision support</span>
-            </div>
-            <div class="program-card fade-in-up delay-5">
-                <div class="program-icon"><i class="fa-solid fa-star"></i></div>
-                <span>Exclusive Casey Tutors learning resources</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ========== SECTION 5: PROGRAM PATHWAY ========== -->
-<section class="program-pathway" id="pathway">
-    <div class="container">
-        <div class="section-header fade-in-up">
-            <h2>Support for <span>Grade 10, Year 11 &amp; Year 12</span> Students</h2>
-        </div>
-
-        <div class="pathway-grid">
-            <!-- Card 1: Grade 10 -->
-            <div class="pathway-card fade-in-up delay-1">
-                <div class="pathway-badge">Grade 10</div>
-                <h3>VCE Biology Preparation</h3>
-                <p>Early preparation for students who want to build strong Biology foundations before starting VCE.</p>
-                <div class="pathway-accent"></div>
-            </div>
-
-            <!-- Card 2: Year 11 -->
-            <div class="pathway-card fade-in-up delay-2">
-                <div class="pathway-badge">Year 11</div>
-                <h3>Biology Units 1 &amp; 2</h3>
-                <p>Foundation support, concept clarity, structured notes, topic tests and preparation for future Unit 3 &amp; 4 success.</p>
-                <div class="pathway-accent"></div>
-            </div>
-
-            <!-- Card 3: Year 12 -->
-            <div class="pathway-card fade-in-up delay-3">
-                <div class="pathway-badge">Year 12</div>
-                <h3>Biology Units 3 &amp; 4</h3>
-                <p>Structured theory, SAC preparation, quizzes, exam‑style practice, revision support and exam technique.</p>
-                <div class="pathway-accent"></div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ========== SECTION 6: UNIT 3/4 WEEKLY STRUCTURE ========== -->
-<section class="weekly-structure" id="structure">
-    <div class="container">
-        <div class="section-header fade-in-up">
-            <h2>4 Hours of Structured Weekly Support<br><span>for Unit 3/4 Biology</span></h2>
-        </div>
-
-        <div class="structure-grid">
-            <!-- Card 1: Theory -->
-            <div class="structure-card theory-card fade-in-up delay-1">
-                <div class="structure-icon">
-                    <i class="fa-solid fa-lightbulb"></i>
+            <div class="structure-visual">
+                <!-- Central circular timer graphic -->
+                <div class="timer-circle fade-in-pop delay-2">
+                    <svg viewBox="0 0 200 200" class="timer-svg">
+                        <!-- Background ring -->
+                        <circle cx="100" cy="100" r="90" fill="none" stroke="var(--line)" stroke-width="6" />
+                        <!-- Theory arc (top-left to top-right, 180deg) -->
+                        <circle class="arc theory-arc" cx="100" cy="100" r="90" fill="none" stroke="var(--cyan-500)" stroke-width="6"
+                        stroke-dasharray="282.7 282.7" stroke-dashoffset="282.7" stroke-linecap="round"
+                        transform="rotate(-90 100 100)" />
+                        <!-- Practice arc (bottom-right to bottom-left, 180deg) -->
+                        <circle class="arc practice-arc" cx="100" cy="100" r="90" fill="none" stroke="var(--cyan-600)" stroke-width="6"
+                        stroke-dasharray="282.7 282.7" stroke-dashoffset="282.7" stroke-linecap="round"
+                        transform="rotate(90 100 100)" />
+                    </svg>
+                    <div class="timer-badge">
+                        <span class="timer-hours">4</span>
+                        <span class="timer-label">hrs / week</span>
+                    </div>
                 </div>
-                <h3>2 Hours Theory Teaching</h3>
-                <p>Clear concept explanations, diagrams, study design coverage and structured Biology teaching.</p>
-            </div>
 
-            <!-- Divider -->
-            <div class="structure-plus fade-in-up delay-2">
-                <i class="fa-solid fa-plus"></i>
-            </div>
+                <!-- Two cards -->
+                <div class="structure-cards">
+                    <div class="structure-card theory-card fade-in-left delay-3">
+                        <div class="card-head">
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <h3>2 Hours Theory Teaching</h3>
+                        </div>
+                        <p>Clear concept explanations, diagrams, study design coverage and structured Biology teaching.</p>
+                        <div class="progress-bar"><div class="progress-fill theory-fill"></div></div>
+                    </div>
 
-            <!-- Card 2: Practice -->
-            <div class="structure-card practice-card fade-in-up delay-3">
-                <div class="structure-icon">
-                    <i class="fa-solid fa-pencil"></i>
+                    <div class="structure-card practice-card fade-in-right delay-4">
+                        <div class="card-head">
+                            <i class="fa-solid fa-pencil"></i>
+                            <h3>2 Hours Quiz, SAC &amp; Exam Practice</h3>
+                        </div>
+                        <p>Timed quizzes, SAC‑style practice, topic tests, exam‑style questions and feedback to improve accuracy.</p>
+                        <div class="progress-bar"><div class="progress-fill practice-fill"></div></div>
+                    </div>
                 </div>
-                <h3>2 Hours Quiz, SAC &amp; Exam Practice</h3>
-                <p>Timed quizzes, SAC‑style practice, topic tests, exam‑style questions and feedback to improve accuracy.</p>
-            </div>
-        </div>
-
-        <p class="structure-footer fade-in-up delay-4">
-            Students are supported to understand the content, practise regularly and answer VCAA‑style questions with confidence.
-        </p>
-    </div>
-</section>
-
-<!-- ========== SECTION 7: RESULTS ========== -->
-<section class="results-section" id="results">
-    <div class="container">
-        <div class="section-header fade-in-up">
-            <h2>Back‑to‑Back <span>VCE Biology Excellence</span></h2>
-        </div>
-
-        <div class="results-grid">
-            <!-- 2025 Column -->
-            <div class="results-card fade-in-up delay-1">
-                <h3>2025 VCE Biology Results</h3>
-                <ul>
-                    <li><strong>3</strong> perfect raw 50s</li>
-                    <li><strong>4</strong> scaled 50s</li>
-                    <li>Several scaled 48s</li>
-                    <li>Many strong 45+ results from students across Victoria</li>
-                </ul>
             </div>
 
-            <!-- 2024 Column -->
-            <div class="results-card fade-in-up delay-2">
-                <h3>2024 VCE Biology Results</h3>
-                <ul>
-                    <li><strong>4</strong> perfect raw 50s</li>
-                    <li>Multiple high‑achieving students across Victoria</li>
-                </ul>
-            </div>
-        </div>
-
-        <p class="results-summary fade-in-up delay-3">
-            Across 2024 and 2025, around 65 students achieved study scores above 45 in VCE Biology.
-        </p>
-    </div>
-</section>
-
-<!-- ========== SECTION 8: REVIEWS ========== -->
-<section class="reviews-section" id="reviews">
-    <div class="container">
-        <div class="section-header fade-in-up">
-            <h2>Trusted by <span>VCE Biology Students &amp; Parents</span></h2>
-            <p class="section-intro">
-                Dr Dulangi SJ has a 5.0‑star Tutor Finder rating based on 74 reviews. 
-                Students repeatedly mention clear explanations, SAC preparation, detailed notes, 
-                practice questions, feedback and strong VCE Biology results.
-            </p>
-            <p class="google-rating">
-                <i class="fa-brands fa-google"></i> Casey Tutors also has a 4.7‑star Google rating from 28 reviews.
+            <p class="structure-footer fade-in-up delay-5">
+                Students are supported to understand the content, practise regularly and answer VCAA‑style questions with confidence.
             </p>
         </div>
+    </section>
 
-        <!-- Review cards grid -->
-        <div class="reviews-grid">
-            <div class="review-card fade-in-up delay-1">
-                <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                <h4>Clear explanations</h4>
-                <p>Complex topics made easy to understand.</p>
-            </div>
-            <div class="review-card fade-in-up delay-1">
-                <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                <h4>Strong SAC preparation</h4>
-                <p>Students walk into SACs feeling confident and ready.</p>
-            </div>
-            <div class="review-card fade-in-up delay-2">
-                <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                <h4>Detailed notes &amp; diagrams</h4>
-                <p>Comprehensive resources that simplify revision.</p>
-            </div>
-            <div class="review-card fade-in-up delay-2">
-                <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                <h4>Practice questions &amp; topic tests</h4>
-                <p>Regular testing that improves exam technique.</p>
-            </div>
-            <div class="review-card fade-in-up delay-3">
-                <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                <h4>Exam‑style preparation</h4>
-                <p>Practice exactly like the real VCAA exams.</p>
-            </div>
-            <div class="review-card fade-in-up delay-3">
-                <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                <h4>Caring &amp; committed teaching</h4>
-                <p>Genuine support that goes beyond the classroom.</p>
-            </div>
-            <div class="review-card fade-in-up delay-4">
-                <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                <h4>Strong improvement in confidence &amp; results</h4>
-                <p>Students see real progress in their scores.</p>
+    <!-- ========== SECTION 6: PROGRAM TIMELINE ========== -->
+    <section class="program-timeline" id="complete-program">
+        <div class="container">
+            <h2 class="section-heading fade-in-up">Not Just a Weekly Class:<br><span>A Complete VCE Biology Program</span></h2>
+
+            <div class="vt-timeline">
+                <!-- 1 – left -->
+                <div class="vt-row left fade-in-pop delay-1">
+                    <div class="vt-card"><i class="fa-solid fa-chalkboard-user"></i><span>Weekly theory teaching</span></div>
+                    <div class="vt-dot">1</div>
+                </div>
+                <!-- 2 – right -->
+                <div class="vt-row right fade-in-pop delay-2">
+                    <div class="vt-dot">2</div>
+                    <div class="vt-card"><i class="fa-solid fa-pen-to-square"></i><span>Quiz, SAC &amp; exam‑style practice support</span></div>
+                </div>
+                <!-- 3 – left -->
+                <div class="vt-row left fade-in-pop delay-3">
+                    <div class="vt-card"><i class="fa-solid fa-bullseye"></i><span>Personalised SAC preparation</span></div>
+                    <div class="vt-dot">3</div>
+                </div>
+                <!-- 4 – right -->
+                <div class="vt-row right fade-in-pop delay-1">
+                    <div class="vt-dot">4</div>
+                    <div class="vt-card"><i class="fa-solid fa-file-lines"></i><span>Topic tests &amp; chapter tests</span></div>
+                </div>
+                <!-- 5 – left -->
+                <div class="vt-row left fade-in-pop delay-2">
+                    <div class="vt-card"><i class="fa-solid fa-book"></i><span>Structured notes</span></div>
+                    <div class="vt-dot">5</div>
+                </div>
+                <!-- 6 – right -->
+                <div class="vt-row right fade-in-pop delay-3">
+                    <div class="vt-dot">6</div>
+                    <div class="vt-card"><i class="fa-solid fa-laptop"></i><span>Learning portal support</span></div>
+                </div>
+                <!-- 7 – left -->
+                <div class="vt-row left fade-in-pop delay-1">
+                    <div class="vt-card"><i class="fa-solid fa-clock"></i><span>Timely quizzes</span></div>
+                    <div class="vt-dot">7</div>
+                </div>
+                <!-- 8 – right -->
+                <div class="vt-row right fade-in-pop delay-2">
+                    <div class="vt-dot">8</div>
+                    <div class="vt-card"><i class="fa-solid fa-chart-simple"></i><span>Progress feedback &amp; reporting</span></div>
+                </div>
+                <!-- 9 – left -->
+                <div class="vt-row left fade-in-pop delay-3">
+                    <div class="vt-card"><i class="fa-solid fa-calendar-check"></i><span>Holiday homework &amp; revision support</span></div>
+                    <div class="vt-dot">9</div>
+                </div>
+                <!-- 10 – right -->
+                <div class="vt-row right fade-in-pop delay-1">
+                    <div class="vt-dot">10</div>
+                    <div class="vt-card"><i class="fa-solid fa-star"></i><span>Exclusive Casey Tutors learning resources</span></div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ========== SECTION 9: WHY PARENTS CHOOSE ========== -->
-<section class="why-choose-section" id="why-choose">
-    <div class="container">
-        <div class="section-header fade-in-up">
-            <h2>Why Parents Choose <span>Casey Tutors for VCE Biology</span></h2>
-        </div>
+    <!-- ========== SECTION 7: PATHWAY ========== -->
+    <section class="pathway-section" id="pathway">
+        <div class="container">
+            <h2 class="section-heading fade-in-up">Support for <span>Grade 10, Year 11 and Year 12</span> Students</h2>
 
-        <div class="why-grid">
-            <div class="why-card fade-in-up delay-1">
-                <i class="fa-solid fa-user-graduate"></i>
-                <span>Taught by an experienced Biology educator</span>
-            </div>
-            <div class="why-card fade-in-up delay-1">
-                <i class="fa-solid fa-calendar-check"></i>
-                <span>Structured program, not casual tutoring</span>
-            </div>
-            <div class="why-card fade-in-up delay-2">
-                <i class="fa-solid fa-arrow-trend-up"></i>
-                <span>Support from Grade 10 through to Year 12</span>
-            </div>
-            <div class="why-card fade-in-up delay-2">
-                <i class="fa-solid fa-lightbulb"></i>
-                <span>Clear theory explanations</span>
-            </div>
-            <div class="why-card fade-in-up delay-3">
-                <i class="fa-solid fa-bullseye"></i>
-                <span>SAC preparation included</span>
-            </div>
-            <div class="why-card fade-in-up delay-3">
-                <i class="fa-solid fa-file-pen"></i>
-                <span>Regular quizzes &amp; topic tests</span>
-            </div>
-            <div class="why-card fade-in-up delay-4">
-                <i class="fa-solid fa-clipboard-question"></i>
-                <span>Exam‑style question practice</span>
-            </div>
-            <div class="why-card fade-in-up delay-4">
-                <i class="fa-solid fa-laptop"></i>
-                <span>Learning portal support</span>
-            </div>
-            <div class="why-card fade-in-up delay-5">
-                <i class="fa-solid fa-chart-line"></i>
-                <span>Progress feedback</span>
-            </div>
-            <div class="why-card fade-in-up delay-5">
-                <i class="fa-solid fa-trophy"></i>
-                <span>Strong results history</span>
-            </div>
-            <div class="why-card fade-in-up delay-5">
-                <i class="fa-solid fa-hand-holding-heart"></i>
-                <span>Family‑friendly weekly fees</span>
+            <div class="pathway-steps">
+                <!-- Card 1 -->
+                <div class="pathway-step fade-in-pop delay-1">
+                    <div class="step-card">
+                        <h3>VCE Biology Preparation</h3>
+                        <p>Early preparation for students who want to build strong Biology foundations before starting VCE.</p>
+                    </div>
+                    <div class="step-connector connector-1"></div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="pathway-step fade-in-pop delay-2">
+                    <div class="step-card">
+                        <h3>Biology Units 1 &amp; 2</h3>
+                        <p>Foundation support, concept clarity, structured notes, topic tests and preparation for future Unit 3 &amp; 4 success.</p>
+                    </div>
+                    <div class="step-connector connector-2"></div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="pathway-step fade-in-pop delay-3">
+                    <div class="step-card">
+                        <h3>Biology Units 3 &amp; 4</h3>
+                        <p>Structured theory, SAC preparation, quizzes, exam‑style practice, revision support and exam technique.</p>
+                    </div>
+                    <div class="step-connector connector-3"></div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ========== SECTION 10: LOCATIONS ========== -->
-<section class="locations-section" id="locations">
-    <div class="container">
-        <div class="section-header fade-in-up">
-            <h2>VCE Biology Classes in <span>Narre Warren, Mount Waverley &amp; Online</span></h2>
-            <p class="section-intro">
+    <!-- ========== SECTION 8: REVIEWS ========== -->
+    <section class="reviews-section" id="reviews">
+        <div class="container">
+            <h2 class="section-heading fade-in-up">Trusted by <span>VCE Biology Students &amp; Parents</span></h2>
+
+            <!-- Rating badges -->
+            <div class="reviews-badges fade-in-up delay-1">
+                <div class="rating-badge">
+                    <i class="fa-solid fa-star"></i>
+                    <span>5.0‑star Tutor Finder rating</span>
+                </div>
+                <div class="rating-badge google-badge">
+                    <i class="fa-brands fa-google"></i>
+                    <span>4.7‑star Google rating</span>
+                </div>
+            </div>
+
+            <!-- Carousel wrapper -->
+            <div class="carousel-wrapper fade-in-up delay-2">
+                <!-- Left Arrow -->
+                <button class="carousel-arrow left-arrow" id="prevReview" aria-label="Previous review">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <!-- Cards track -->
+                <div class="carousel-track-container" id="reviewTrackContainer">
+                    <div class="carousel-track" id="reviewTrack">
+                        <!-- Card 1 -->
+                        <div class="review-card">
+                            <div class="card-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <h4>Clear explanations</h4>
+                            <p>Students mention that complex topics are broken down clearly and logically.</p>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="review-card">
+                            <div class="card-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <h4>Strong SAC preparation</h4>
+                            <p>They feel well‑prepared for SACs thanks to targeted practice.</p>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="review-card">
+                            <div class="card-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <h4>Detailed notes &amp; diagrams</h4>
+                            <p>Comprehensive notes help reinforce classroom learning.</p>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="review-card">
+                            <div class="card-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <h4>Practice questions &amp; topic tests</h4>
+                            <p>Regular testing builds confidence and exam technique.</p>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="review-card">
+                            <div class="card-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <h4>Exam‑style preparation</h4>
+                            <p>Practice under exam conditions reduces anxiety.</p>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="review-card">
+                            <div class="card-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <h4>Caring &amp; committed teaching</h4>
+                            <p>Parents appreciate the genuine care for student success.</p>
+                        </div>
+                        <!-- Card 7 -->
+                        <div class="review-card">
+                            <div class="card-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <h4>Strong improvement in confidence &amp; results</h4>
+                            <p>Students see noticeable growth in both understanding and scores.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Arrow -->
+                <button class="carousel-arrow right-arrow" id="nextReview" aria-label="Next review">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Dots -->
+            <div class="carousel-dots fade-in-up delay-3" id="reviewDots"></div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 9: LOCATIONS ========== -->
+    <section class="locations-section" id="locations">
+        <div class="container">
+            <h2 class="section-heading fade-in-up">VCE Biology Classes in <span>Narre Warren, Mount Waverley &amp; Online</span></h2>
+
+            <p class="locations-intro fade-in-up delay-1">
                 Casey Tutors supports VCE Biology students from Narre Warren, Berwick, Cranbourne, Clyde, Officer,
                 Pakenham, Dandenong, Rowville, Glen Waverley, Mount Waverley, Clayton, Springvale, Chadstone,
                 South East Melbourne and across Victoria through online classes.
             </p>
-        </div>
 
-        <div class="locations-grid fade-in-up delay-1">
-            <div class="location-card">
-                <div class="location-icon"><i class="fa-solid fa-location-dot"></i></div>
-                <h3>Narre Warren</h3>
-                <p>In‑person classes for South‑East families</p>
+            <div class="locations-grid">
+                <!-- Card 1 -->
+                <div class="location-card fade-in-pop delay-2">
+                    <div class="location-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3>Narre Warren</h3>
+                    <p>In‑person classes for South‑East families</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="location-card fade-in-pop delay-3">
+                    <div class="location-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3>Mount Waverley</h3>
+                    <p>Convenient for Eastern suburbs</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="location-card fade-in-pop delay-4">
+                    <div class="location-icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3>Online</h3>
+                    <p>Live interactive classes across Victoria</p>
+                </div>
             </div>
-            <div class="location-card">
-                <div class="location-icon"><i class="fa-solid fa-location-dot"></i></div>
-                <h3>Mount Waverley</h3>
-                <p>Convenient for Eastern suburbs</p>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 10: FAQ ========== -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2 class="section-heading fade-in-up">Frequently Asked <span>Questions</span></h2>
+
+            <div class="faq-list fade-in-up delay-1">
+                <!-- FAQ 1 -->
+                <details class="faq-item">
+                    <summary>Is this for Grade 10, Year 11 and Year 12 students? <i class="fa-solid fa-chevron-down"></i></summary>
+                    <div class="faq-answer">
+                        <p>[Answer text here]</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 2 -->
+                <details class="faq-item">
+                    <summary>Is this individual tutoring? <i class="fa-solid fa-chevron-down"></i></summary>
+                    <div class="faq-answer">
+                        <p>[Answer text here]</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 3 -->
+                <details class="faq-item">
+                    <summary>What is included in the Unit 3/4 program? <i class="fa-solid fa-chevron-down"></i></summary>
+                    <div class="faq-answer">
+                        <p>[Answer text here]</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 4 -->
+                <details class="faq-item">
+                    <summary>Are classes available online? <i class="fa-solid fa-chevron-down"></i></summary>
+                    <div class="faq-answer">
+                        <p>[Answer text here]</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 5 -->
+                <details class="faq-item">
+                    <summary>Is SAC preparation included? <i class="fa-solid fa-chevron-down"></i></summary>
+                    <div class="faq-answer">
+                        <p>[Answer text here]</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 6 -->
+                <details class="faq-item">
+                    <summary>Who teaches the VCE Biology program? <i class="fa-solid fa-chevron-down"></i></summary>
+                    <div class="faq-answer">
+                        <p>[Answer text here]</p>
+                    </div>
+                </details>
             </div>
-            <div class="location-card">
-                <div class="location-icon"><i class="fa-solid fa-globe"></i></div>
-                <h3>Online</h3>
-                <p>Live interactive classes across Victoria</p>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 11: ENQUIRY FORM ========== -->
+    <section class="enquiry-section" id="contact">
+        <div class="container">
+            <h2 class="section-heading fade-in-up">Enquire About <span>VCE Biology Classes</span></h2>
+
+            <div class="form-wrapper fade-in-up delay-1">
+                <form class="enquiry-form" id="enquiryForm" action="#" method="post">
+                    <!-- Row 1: Parent & Student name -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="parentName">Parent Name *</label>
+                            <input type="text" id="parentName" name="parent_name" placeholder="e.g. Sarah Johnson" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="studentName">Student Name *</label>
+                            <input type="text" id="studentName" name="student_name" placeholder="e.g. Emily Johnson" required>
+                        </div>
+                    </div>
+
+                    <!-- Row 2: Year level & School -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="yearLevel">Student Year Level *</label>
+                            <select id="yearLevel" name="year_level" required>
+                                <option value="" disabled selected>Select year level</option>
+                                <option value="Grade 10">Grade 10</option>
+                                <option value="Year 11">Year 11</option>
+                                <option value="Year 12">Year 12</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="school">School *</label>
+                            <input type="text" id="school" name="school" placeholder="e.g. Narre Warren Secondary" required>
+                        </div>
+                    </div>
+
+                    <!-- Row 3: Location & Phone -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="location">Preferred Location *</label>
+                            <select id="location" name="location" required>
+                                <option value="" disabled selected>Select location</option>
+                                <option value="Narre Warren">Narre Warren</option>
+                                <option value="Mount Waverley">Mount Waverley</option>
+                                <option value="Online">Online</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="e.g. 0412 345 678" required>
+                        </div>
+                    </div>
+
+                    <!-- Row 4: Email & Support needed -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="e.g. sarah@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="support">Main Support Needed *</label>
+                            <select id="support" name="support_needed" required>
+                                <option value="" disabled selected>Select support area</option>
+                                <option value="Early VCE preparation">Early VCE preparation</option>
+                                <option value="Theory">Theory</option>
+                                <option value="SAC preparation">SAC preparation</option>
+                                <option value="Exam practice">Exam practice</option>
+                                <option value="Confidence">Confidence</option>
+                                <option value="Aiming 40+">Aiming 40+</option>
+                                <option value="Aiming 45+">Aiming 45+</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary form-submit">Submit Enquiry <i class="fa-regular fa-paper-plane"></i></button>
+                </form>
+
+                <!-- Success message (hidden by default) -->
+                <div class="form-success" id="formSuccess" style="display: none;">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h3>Thank you for your enquiry!</h3>
+                    <p>We'll be in touch shortly to discuss VCE Biology classes for your child.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ========== SECTION 11: FAQ ========== -->
-<section class="faq-section" id="faq">
-    <div class="container">
-        <div class="section-header fade-in-up">
-            <h2>Frequently Asked <span>Questions</span></h2>
+    <!-- ========== SECTION 12: FINAL CTA ========== -->
+    <section class="final-cta" id="final-cta">
+        <div class="container">
+            <h2 class="fade-in-up">Start VCE Biology With <span>Confidence</span></h2>
+            <p class="fade-in-up delay-1">
+                Join Casey Tutors VCE Biology for structured teaching, SAC preparation, regular practice and
+                expert support from early preparation through to the final exam.
+            </p>
+            <a href="#contact" class="btn-primary fade-in-up delay-2">
+                Enquire Now <i class="fa-solid fa-angle-right"></i></i>
+            </a>
         </div>
+    </section>
 
-        <div class="faq-list fade-in-up delay-1">
-            <details class="faq-item">
-                <summary>Is this for Grade 10, Year 11 or Year 12 students?</summary>
-                <div class="faq-answer">
-                    <p>Yes. Casey Tutors supports Grade 10 students preparing early for VCE Biology, Year 11 students studying Units 1 &amp; 2, and Year 12 students studying Units 3 &amp; 4.</p>
-                </div>
-            </details>
+    <!-- Mobile Sticky Enquire Now Button -->
+    <a href="#contact" class="sticky-enquire" id="stickyEnquire">
+        Enquire Now <i class="fa-solid fa-angle-right"></i></i>
+    </a>
 
-            <details class="faq-item">
-                <summary>Is this individual tutoring?</summary>
-                <div class="faq-answer">
-                    <p>No. Casey Tutors offers structured group classes only. Individual lessons are not available.</p>
-                </div>
-            </details>
+    <!-- ========== SCRIPTS ========== -->
+    <script>
+        // Hide sticky button when enquiry form is visible
+        const stickyBtn = document.getElementById('stickyEnquire');
+        const contactSection = document.getElementById('contact');
 
-            <details class="faq-item">
-                <summary>What is included in the Unit 3/4 program?</summary>
-                <div class="faq-answer">
-                    <p>Students receive theory teaching, quiz and SAC practice, topic tests, notes, learning portal support, progress feedback and revision support.</p>
-                </div>
-            </details>
+        if (stickyBtn && contactSection) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        stickyBtn.style.transform = 'translateY(100%)';
+                    } else {
+                        stickyBtn.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
 
-            <details class="faq-item">
-                <summary>Are classes available online?</summary>
-                <div class="faq-answer">
-                    <p>Yes. Students can attend from Narre Warren, Mount Waverley or Online.</p>
-                </div>
-            </details>
+            observer.observe(contactSection);
+        }
+    </script>
 
-            <details class="faq-item">
-                <summary>Who teaches the VCE Biology program?</summary>
-                <div class="faq-answer">
-                    <p>The program is taught by Dr Dulangi SJ, a PhD-qualified former research scientist with over 13 years of VCE Biology teaching experience.</p>
-                </div>
-            </details>
-        </div>
-    </div>
-</section>
+    <script>
+        (function() {
+            const track = document.getElementById('reviewTrack');
+            const prevBtn = document.getElementById('prevReview');
+            const nextBtn = document.getElementById('nextReview');
+            const dotsContainer = document.getElementById('reviewDots');
+            if (!track || !prevBtn || !nextBtn || !dotsContainer) return;
 
-<!-- ========== SECTION 12: ENQUIRY FORM ========== -->
-<section class="enquiry-section" id="contact">
-    <div class="container">
-        <div class="section-header fade-in-up">
-            <h2>Enquire About <span>VCE Biology Classes</span></h2>
-        </div>
+            const cards = Array.from(track.querySelectorAll('.review-card'));
+            let currentIndex = 0; // current slide index (each slide = one card move)
 
-        <div class="form-wrapper fade-in-up delay-1">
-            <form class="enquiry-form" action="#" method="post">
-                <div class="form-row">
-                    <input type="text" name="parent_name" placeholder="Parent name" required>
-                    <input type="text" name="student_name" placeholder="Student name" required>
-                </div>
-                <div class="form-row">
-                    <select name="year_level" required>
-                        <option value="" disabled selected>Student year level</option>
-                        <option value="Grade 10">Grade 10</option>
-                        <option value="Year 11">Year 11</option>
-                        <option value="Year 12">Year 12</option>
-                    </select>
-                    <input type="text" name="school" placeholder="School" required>
-                </div>
-                <div class="form-row">
-                    <select name="location" required>
-                        <option value="" disabled selected>Preferred location</option>
-                        <option value="Narre Warren">Narre Warren</option>
-                        <option value="Mount Waverley">Mount Waverley</option>
-                        <option value="Online">Online</option>
-                    </select>
-                    <input type="tel" name="phone" placeholder="Phone number" required>
-                </div>
-                <div class="form-row">
-                    <input type="email" name="email" placeholder="Email address" required>
-                    <select name="support_needed" required>
-                        <option value="" disabled selected>Main support needed</option>
-                        <option value="Early VCE preparation">Early VCE preparation</option>
-                        <option value="Theory">Theory</option>
-                        <option value="SAC preparation">SAC preparation</option>
-                        <option value="Exam practice">Exam practice</option>
-                        <option value="Confidence">Confidence</option>
-                        <option value="Aiming 40+">Aiming 40+</option>
-                        <option value="Aiming 45+">Aiming 45+</option>
-                    </select>
-                </div>
-                <button type="submit" class="btn-primary">Submit Enquiry</button>
-            </form>
-        </div>
-    </div>
-</section>
+            function getSlideWidth() {
+                const card = cards[0];
+                const cardWidth = card.getBoundingClientRect().width;
+                const gap = parseFloat(getComputedStyle(track).gap) || 0;
+                return cardWidth + gap;
+            }
 
-<!-- ========== FINAL CALL TO ACTION ========== -->
-<section class="final-cta">
-    <div class="container fade-in-up">
-        <h2>Start VCE Biology With <span>Confidence</span></h2>
-        <p>Join Casey Tutors VCE Biology for structured teaching, SAC preparation, regular practice and expert support from early preparation through to the final exam.</p>
-        <a href="#contact" class="btn-primary">Enquire Now</a>
-    </div>
-</section>
+            const totalCards = cards.length;
+            const maxIndex = totalCards - 1; // we slide one card at a time
 
-        
-    </main>
+            function updateCarousel() {
+                const slideWidth = getSlideWidth();
+                track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+
+                // Update dots
+                const dots = dotsContainer.querySelectorAll('.carousel-dot');
+                dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
+            }
+
+            function createDots() {
+                dotsContainer.innerHTML = '';
+                for (let i = 0; i < totalCards; i++) {
+                    const dot = document.createElement('button');
+                    dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+                    dot.addEventListener('click', () => {
+                        currentIndex = i;
+                        updateCarousel();
+                    });
+                    dotsContainer.appendChild(dot);
+                }
+            }
+
+            prevBtn.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    updateCarousel();
+                }
+            });
+
+            nextBtn.addEventListener('click', () => {
+                if (currentIndex < maxIndex) {
+                    currentIndex++;
+                    updateCarousel();
+                }
+            });
+
+            createDots();
+
+            // Recalculate on resize
+            window.addEventListener('resize', updateCarousel);
+        })();
+    </script>
+
+    <script>
+        // Animated stat counters
+        const observerOptions = { threshold: 0.3 };
+
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const numbers = entry.target.querySelectorAll('.stat-number');
+                    numbers.forEach(num => {
+                        const target = parseInt(num.getAttribute('data-target'));
+                        const duration = 1500; // ms
+                        const step = target / (duration / 16);
+                        let current = 0;
+                        const update = () => {
+                            current += step;
+                            if (current >= target) {
+                                num.textContent = target;
+                            } else {
+                                num.textContent = Math.floor(current);
+                                requestAnimationFrame(update);
+                            }
+                        };
+                        requestAnimationFrame(update);
+                    });
+                    counterObserver.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        const showcase = document.querySelector('.results-showcase');
+        if (showcase) {
+            counterObserver.observe(showcase);
+        }
+    </script>
+
+    <script>
+        // Scroll-triggered progress bar fills + SVG arc animation
+        const structureSection = document.querySelector('.weekly-structure');
+        if (structureSection) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Trigger SVG arcs
+                        const timer = document.querySelector('.timer-circle');
+                        if (timer) timer.classList.add('animate');
+                        // Trigger card progress fills
+                        document.querySelectorAll('.structure-card').forEach(card => {
+                            card.classList.add('animate');
+                        });
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.3 });
+
+            observer.observe(structureSection);
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
